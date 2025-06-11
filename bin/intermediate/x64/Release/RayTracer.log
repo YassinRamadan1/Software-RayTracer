@@ -10,15 +10,14 @@ C:\dev\RayTracer\RayTracer\src\noise.h(185,13): warning C4244: 'initializing': c
 C:\dev\RayTracer\RayTracer\src\noise.h(186,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 C:\dev\RayTracer\RayTracer\src\texture.h(83,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
 C:\dev\RayTracer\RayTracer\src\texture.h(83,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\dev\RayTracer\RayTracer\src\camera.h(81,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
-C:\dev\RayTracer\RayTracer\src\camera.h(88,31): warning C4018: '<': signed/unsigned mismatch
-C:\dev\RayTracer\RayTracer\src\camera.h(90,31): warning C4018: '<': signed/unsigned mismatch
-C:\dev\RayTracer\RayTracer\src\camera.h(139,30): warning C4018: '<': signed/unsigned mismatch
-C:\dev\RayTracer\RayTracer\src\camera.h(140,31): warning C4018: '<': signed/unsigned mismatch
-  tgaimage.cpp
+C:\dev\RayTracer\RayTracer\src\camera.h(82,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\camera.h(89,31): warning C4018: '<': signed/unsigned mismatch
+C:\dev\RayTracer\RayTracer\src\camera.h(91,31): warning C4018: '<': signed/unsigned mismatch
+C:\dev\RayTracer\RayTracer\src\camera.h(140,30): warning C4018: '<': signed/unsigned mismatch
+C:\dev\RayTracer\RayTracer\src\camera.h(141,31): warning C4018: '<': signed/unsigned mismatch
   Generating code
-  1141 of 1155 functions (98.8%) were compiled, the rest were copied from previous compilation.
+  6 of 1160 functions ( 0.5%) were compiled, the rest were copied from previous compilation.
     4 functions were new in current compilation
-    2 functions had inline decision re-evaluated but remain unchanged
+    1 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
   RayTracer.vcxproj -> C:\dev\RayTracer\bin\EXE\x64\Release\RayTracer.exe

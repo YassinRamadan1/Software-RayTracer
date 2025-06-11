@@ -74,6 +74,7 @@ public:
 		look_at_ = vec3(0, 0, -1),
 		world_up_ = vec3(0, 1, 0);
 	vec3 background_color_;
+	std::string image_path_ = "Export/image.tga";
 	TGAImage* image_ = nullptr;
 
 	void init()
@@ -152,6 +153,6 @@ public:
 				image_->set(i, j, toTGAColor(linearToGamma(c)));
 			}
 #endif
-		image_->write_tga_file("Export/CornellBox.tga");
+		image_->write_tga_file(image_path_);
 	}
 };

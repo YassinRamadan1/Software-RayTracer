@@ -105,7 +105,7 @@ void earth()
 {
     HittableList world;
 
-    auto earth_texture = std::make_shared<ImageTexture>("C:/dev/RayTracing learn/RayTracing learn/res/earthmap.tga");
+    auto earth_texture = std::make_shared<ImageTexture>("res/earthmap.tga");
     auto earth_surface = std::make_shared<Lambertian>(earth_texture);
     world.add(std::make_shared<Sphere>(vec3(0, 0, 0), 2, earth_surface));
 
@@ -282,7 +282,7 @@ void cornellBox()
 
 int main() {
 
-    switch (7)
+    switch (3)
     {
     case 1:
         bouncingSpheres();
