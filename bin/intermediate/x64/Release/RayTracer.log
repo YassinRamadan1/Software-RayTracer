@@ -1,0 +1,24 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(516,5): warning MSB8004: Intermediate Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Intermediate Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: The intermediate directory (C:\dev\RayTracer\bin\intermediate\x64\Release\) contains files shared from another project (RayTracing learn.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+C:\dev\RayTracer\RayTracer\src\noise.h(71,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\noise.h(72,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\noise.h(73,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\noise.h(184,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\noise.h(185,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\noise.h(186,13): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\texture.h(83,9): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\texture.h(83,39): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\camera.h(81,32): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\dev\RayTracer\RayTracer\src\camera.h(88,31): warning C4018: '<': signed/unsigned mismatch
+C:\dev\RayTracer\RayTracer\src\camera.h(90,31): warning C4018: '<': signed/unsigned mismatch
+C:\dev\RayTracer\RayTracer\src\camera.h(139,30): warning C4018: '<': signed/unsigned mismatch
+C:\dev\RayTracer\RayTracer\src\camera.h(140,31): warning C4018: '<': signed/unsigned mismatch
+  tgaimage.cpp
+  Generating code
+  1141 of 1155 functions (98.8%) were compiled, the rest were copied from previous compilation.
+    4 functions were new in current compilation
+    2 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  RayTracer.vcxproj -> C:\dev\RayTracer\bin\EXE\x64\Release\RayTracer.exe
